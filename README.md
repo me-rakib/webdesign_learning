@@ -1,2 +1,2 @@
 # webdesign_learning
-#learning purpuse
+#learning purpose
