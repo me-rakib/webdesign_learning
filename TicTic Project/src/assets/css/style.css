@@ -1,0 +1,91 @@
+.nav-color {
+    background: #000;
+}
+
+.carousel-item {
+    min-height: 450px;
+}
+.carousel-img-1 {
+    background: url('../img/image1.jpeg') no-repeat;
+    background-size: cover;
+}
+.carousel-img-2 {
+    background: url('../img/image2.jpeg') no-repeat;
+    background-size: cover;
+}
+.carousel-img-3 {
+    background: url('../img/image3.jpeg') no-repeat;
+    background-size: cover;
+}
+.home-icon i {
+    font-size: 50px;
+}
+.bg-fixed-img {
+    background: url('../img/background1.jpg') no-repeat center;
+    background-size: cover; 
+    background-attachment: fixed;
+    min-height: 250px;
+}
+.dark-overlay {
+    background: rgba(0,0,0,0.7);
+    min-height: 250px;
+}
+.bg-people {
+    background: url('../img/people.jpeg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 250px;
+}
+.footer {
+    background: #000;
+}
+
+/* About Us Page Start */
+
+.about-overlay {
+    background: url('../img/image1.jpeg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about-img img {
+    width: 350px;
+    height: 350px;
+}
+#about-icon i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.slick-prev::before,
+.slick-next::before {
+    color: #000;
+}
+
+/* Service Section Start */
+
+.service-overlay {
+    background: url('../img/image3.jpeg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+/* Blog */
+
+.blog-overlay {
+    background: url('../img/image2.jpeg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+/* Contact */
+
+.contact-overlay {
+    background: url('../img/image1.jpeg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+@media (max-width: 544px) {
+    .carousel h2 {
+        font-size: 2.5rem
+    }
+}
